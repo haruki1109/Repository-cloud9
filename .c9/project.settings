@@ -37,11 +37,6 @@
         "@first": true
     },
     "workspace": {
-        "@folders": [
-            {
-                "name": "hello_app",
-                "path": "/hello_app"
-            }
-        ]
+        "@folders": []
     }
 }

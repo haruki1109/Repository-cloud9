@@ -3,6 +3,9 @@
         "@git.ignoreLimitWarning": true,
         "@json.schemas": []
     },
+    "instance": {
+        "@automaticShutdown": "30"
+    },
     "language": {
         "tern_defs": {
             "json()": {
@@ -38,18 +41,6 @@
             {
                 "name": "hello_app",
                 "path": "/hello_app"
-            },
-            {
-                "name": "association_tutorial",
-                "path": "/association_tutorial"
-            },
-            {
-                "name": "devise_rails5",
-                "path": "/devise_rails5"
-            },
-            {
-                "name": "devise_rails6",
-                "path": "/devise_rails6"
             }
         ]
     }

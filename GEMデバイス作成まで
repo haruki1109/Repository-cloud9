@@ -1,0 +1,188 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Changes to be committed:
+#	new file:   README.md
+#	new file:   association_tutorial/.browserslistrc
+#	new file:   association_tutorial/.gitignore
+#	new file:   association_tutorial/.ruby-version
+#	new file:   association_tutorial/Gemfile
+#	new file:   association_tutorial/Gemfile.lock
+#	new file:   association_tutorial/README.md
+#	new file:   association_tutorial/Rakefile
+#	new file:   association_tutorial/app/assets/config/manifest.js
+#	new file:   association_tutorial/app/assets/images/.keep
+#	new file:   association_tutorial/app/assets/stylesheets/application.css
+#	new file:   association_tutorial/app/channels/application_cable/channel.rb
+#	new file:   association_tutorial/app/channels/application_cable/connection.rb
+#	new file:   association_tutorial/app/controllers/application_controller.rb
+#	new file:   association_tutorial/app/controllers/concerns/.keep
+#	new file:   association_tutorial/app/helpers/application_helper.rb
+#	new file:   association_tutorial/app/javascript/channels/consumer.js
+#	new file:   association_tutorial/app/javascript/channels/index.js
+#	new file:   association_tutorial/app/javascript/packs/application.js
+#	new file:   association_tutorial/app/jobs/application_job.rb
+#	new file:   association_tutorial/app/mailers/application_mailer.rb
+#	new file:   association_tutorial/app/models/application_record.rb
+#	new file:   association_tutorial/app/models/concerns/.keep
+#	new file:   association_tutorial/app/views/layouts/application.html.erb
+#	new file:   association_tutorial/app/views/layouts/mailer.html.erb
+#	new file:   association_tutorial/app/views/layouts/mailer.text.erb
+#	new file:   association_tutorial/babel.config.js
+#	new file:   association_tutorial/bin/bundle
+#	new file:   association_tutorial/bin/rails
+#	new file:   association_tutorial/bin/rake
+#	new file:   association_tutorial/bin/setup
+#	new file:   association_tutorial/bin/spring
+#	new file:   association_tutorial/bin/webpack
+#	new file:   association_tutorial/bin/webpack-dev-server
+#	new file:   association_tutorial/bin/yarn
+#	new file:   association_tutorial/config.ru
+#	new file:   association_tutorial/config/application.rb
+#	new file:   association_tutorial/config/boot.rb
+#	new file:   association_tutorial/config/cable.yml
+#	new file:   association_tutorial/config/credentials.yml.enc
+#	new file:   association_tutorial/config/database.yml
+#	new file:   association_tutorial/config/environment.rb
+#	new file:   association_tutorial/config/environments/development.rb
+#	new file:   association_tutorial/config/environments/production.rb
+#	new file:   association_tutorial/config/environments/test.rb
+#	new file:   association_tutorial/config/initializers/application_controller_renderer.rb
+#	new file:   association_tutorial/config/initializers/assets.rb
+#	new file:   association_tutorial/config/initializers/backtrace_silencers.rb
+#	new file:   association_tutorial/config/initializers/content_security_policy.rb
+#	new file:   association_tutorial/config/initializers/cookies_serializer.rb
+#	new file:   association_tutorial/config/initializers/filter_parameter_logging.rb
+#	new file:   association_tutorial/config/initializers/inflections.rb
+#	new file:   association_tutorial/config/initializers/mime_types.rb
+#	new file:   association_tutorial/config/initializers/wrap_parameters.rb
+#	new file:   association_tutorial/config/locales/en.yml
+#	new file:   association_tutorial/config/puma.rb
+#	new file:   association_tutorial/config/routes.rb
+#	new file:   association_tutorial/config/spring.rb
+#	new file:   association_tutorial/config/storage.yml
+#	new file:   association_tutorial/config/webpack/development.js
+#	new file:   association_tutorial/config/webpack/environment.js
+#	new file:   association_tutorial/config/webpack/production.js
+#	new file:   association_tutorial/config/webpack/test.js
+#	new file:   association_tutorial/config/webpacker.yml
+#	new file:   association_tutorial/db/seeds.rb
+#	new file:   association_tutorial/lib/assets/.keep
+#	new file:   association_tutorial/lib/tasks/.keep
+#	new file:   association_tutorial/log/.keep
+#	new file:   association_tutorial/package.json
+#	new file:   association_tutorial/postcss.config.js
+#	new file:   association_tutorial/public/404.html
+#	new file:   association_tutorial/public/422.html
+#	new file:   association_tutorial/public/500.html
+#	new file:   association_tutorial/public/apple-touch-icon-precomposed.png
+#	new file:   association_tutorial/public/apple-touch-icon.png
+#	new file:   association_tutorial/public/favicon.ico
+#	new file:   association_tutorial/public/robots.txt
+#	new file:   association_tutorial/storage/.keep
+#	new file:   association_tutorial/test/application_system_test_case.rb
+#	new file:   association_tutorial/test/channels/application_cable/connection_test.rb
+#	new file:   association_tutorial/test/controllers/.keep
+#	new file:   association_tutorial/test/fixtures/.keep
+#	new file:   association_tutorial/test/fixtures/files/.keep
+#	new file:   association_tutorial/test/helpers/.keep
+#	new file:   association_tutorial/test/integration/.keep
+#	new file:   association_tutorial/test/mailers/.keep
+#	new file:   association_tutorial/test/models/.keep
+#	new file:   association_tutorial/test/system/.keep
+#	new file:   association_tutorial/test/test_helper.rb
+#	new file:   association_tutorial/tmp/.keep
+#	new file:   association_tutorial/tmp/pids/.keep
+#	new file:   association_tutorial/vendor/.keep
+#	new file:   association_tutorial/yarn.lock
+#
+# Changes not staged for commit:
+#	modified:   .c9/amazonwebservices.aws-toolkit-vscode/telemetryCache
+#	deleted:    .c9/metadata/environment/devise_rails6/Gemfile
+#	deleted:    .c9/metadata/environment/devise_rails6/app/views/devise/passwords/edit.html.erb
+#	deleted:    .c9/metadata/environment/devise_rails6/config/routes.rb
+#	deleted:    .c9/metadata/environment/devise_rails6/db/migrate/20220130212937_add_columns_to_users.rb
+#	modified:   .c9/metadata/environment/hello_app/config/database.yml
+#	modified:   .c9/out_of_memory
+#	modified:   .c9/project.settings
+#
+# Untracked files:
+#	.c9/amazonwebservices.aws-toolkit-vscode/logs/aws_toolkit_20220202T012058.log
+#	.c9/amazonwebservices.aws-toolkit-vscode/logs/aws_toolkit_20220202T013829.log
+#	.c9/amazonwebservices.aws-toolkit-vscode/logs/aws_toolkit_20220202T052527.log
+#	.c9/amazonwebservices.aws-toolkit-vscode/logs/aws_toolkit_20220202T125924.log
+#	.c9/amazonwebservices.aws-toolkit-vscode/logs/aws_toolkit_20220202T134227.log
+#	.c9/amazonwebservices.aws-toolkit-vscode/logs/aws_toolkit_20220202T164201.log
+#	.c9/amazonwebservices.aws-toolkit-vscode/logs/aws_toolkit_20220203T110324.log
+#	.c9/amazonwebservices.aws-toolkit-vscode/logs/aws_toolkit_20220204T131319.log
+#	.c9/amazonwebservices.aws-toolkit-vscode/logs/aws_toolkit_20220204T170604.log
+#	.c9/gggg
+#	.c9/metadata/environment/association_tutorial/
+#	.c9/metadata/environment/hello_app/Gemfile
+#	.c9/metadata/environment/hello_app/app/
+#	.c9/metadata/environment/hello_app/config/cable.yml
+#	.c9/metadata/environment/hello_app/config/credentials.yml.enc
+#	.c9/metadata/environment/hello_app/config/environment.rb
+#	.c9/metadata/environment/hello_app/config/storage.yml
+#	.c9/metadata/environment/hello_app/config/webpacker.yml
+#	.c9/metadata/environment/hello_app/db/
+#	.c9/metadata/tab39
+#	.read.swp
+#	Booting
+#	master
+#	workspace.1/
+#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
